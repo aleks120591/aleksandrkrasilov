@@ -1,0 +1,279 @@
+/* ##### Common Styles ##### */
+
+body {
+  color: black;
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 73%;  /* Enables font size scaling in MSIE */
+  margin: 0;
+  padding: 0;
+	background:url(../images/bg.gif);
+}
+
+html > body {
+  font-size: 9pt;
+}
+
+.doNotDisplay {
+  display: none !important;
+}
+
+/* ##### Header ##### */
+
+#header {
+  color: inherit;
+  height:100px;
+  background: url(../images/lg.jpg) repeat;
+	border:#336666; 
+	border: 1px solid;
+}
+
+.headerTitle {
+  margin: 0;
+  padding: 0.85em 4mm 0.25em 4mm;
+}
+
+.headerTitle a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 110%;  /* For MSIE */
+  font-weight: bold;
+  font-style: italic;
+}
+
+.headerTitle > a {
+  font-size: 138%;  /* For fully standards-compliant user agents */
+}
+
+.headerTitle span {
+  color: white;
+  background-color: transparent;
+  font-weight: normal;
+}
+
+.subHeader {
+  color: white;
+  background-color: #777777;
+  font-size: 109%;
+  text-align: center;
+  margin: 0px;
+  padding: 0.5ex 0;
+}
+
+.subHeader a {
+  color: white;
+  background-color: #777777;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 1ex;
+}
+
+.subHeader a:hover {
+  color: black;
+  background-color: white;
+}
+
+
+/* ##### Left Side Bar ##### */
+
+.leftSideBar {
+  width: 160px;
+  float: left;
+  clear: left;
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-color:#D8D2C3;
+  margin: 2ex 0 0 0.75ex;
+	position: absolute 0 0 0 0;
+}
+
+.leftSideBar .sideBarTitle {
+  color: rgb(64,64,64);
+  background-color: rgb(230,223,207); 
+  font-weight: bold;
+  margin: 0;
+  padding: 0.8ex 1ex;
+}
+
+.leftSideBar ul {
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+.leftSideBar li {
+  margin: 1ex;
+  padding: 0 0 0.25ex 0.75ex;
+}
+
+.leftSideBar a {
+  color: rgb(166,140,83);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.leftSideBar a:hover {
+  color: rgb(64,64,64);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.leftSideBar .sideBarText {
+  color: rgb(166,140,83);
+  background-color: transparent;
+  line-height: 1.25em;
+  margin: 1ex 0.25ex 1.5em 0.75ex;
+  padding: 0;
+  display: block;
+}
+
+.leftSideBar .sideBarText a {
+  text-decoration: underline;
+}
+
+.leftSideBar .sideBarText a:hover {
+  text-decoration: none;
+}
+
+.leftSideBar .thisPage {
+  color: rgb(64,64,64);
+  background-color: transparent;
+  font-weight: bold;
+}
+
+
+/* ##### Right Side Bar ##### */
+
+.rightSideBar {
+  width: 160px;
+  margin: 2ex 0 0 0;
+  padding: 0;
+  float: right;
+  clear: right;
+  border: 1px solid rgb(216,210,195);
+	position: absolute 0 0 0 0;
+}
+
+.rightSideBar .sideBarTitle {
+  color: black;
+  background-color: rgb(230,223,207);
+  font-weight: bold;
+  margin: 1.25ex 1ex;
+  padding: 0.9ex 1ex;
+}
+
+.rightSideBar a {
+  color: rgb(166,140,83);
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.rightSideBar a:hover {
+  text-decoration: none;
+}
+
+.rightSideBar .sideBarText {
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0 2ex 1em 2ex;
+}
+
+.rightSideBar .more {
+  text-decoration: none;
+  text-align: right;
+  margin: 0;
+  padding: 0 2ex 1em 2ex;
+  display: block;
+}
+
+.rightSideBar .more:hover {
+  text-decoration: underline;
+}
+
+.right{
+	float:right;
+	margin-left: -30px;
+	padding-left: 230px;
+	
+}
+/* ##### Main Copy ##### */
+
+#main-copy {
+  color: black;
+  background-color: white;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#main-copy h1 {
+  color: rgb(166,140,83);
+  background-color: transparent;
+  font-family: arial, verdana, helvetica, sans-serif;
+  font-size: 175%;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
+  border-top: 1px solid rgb(216,210,195);
+}
+
+#main-copy a {
+  color: rgb(168,140,83);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#main-copy a:hover {
+  text-decoration: none;
+}
+
+
+/* ##### Footer ##### */
+
+#footer {
+  color: black;
+	height:40px;
+  background-color: rgb(230,223,207);
+  font-size: 92%;
+  text-align: center;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 1em 4mm 1em 4mm;
+  clear: both;
+}
+
+#footer div {
+  margin: 0;
+  padding: 0 0 1ex 0;
+}
+
+#footer a {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#footer a:hover {
+  text-decoration: none;
+}
+
+#footer #acvarif{ font-weight: normal; font-style:italic;}
+
+#maincontainer {width: 935px; border: 1px solid;  border-color:#336666; background-color:#FFFFFF;}
+
+#contentwrapper {float: left;width: 100%;}
+
+#contentcolumn {margin: 10px 190px 0 190px;}
+
+#leftcolumn {float: left;width: 160px;margin-left: -930px;}
+
+#rightcolumn {float: left;width: 160px; margin-left: -173px; azimuth:center-right;}
+
+#contentcolumn,#leftcolumn,#rightcolumn {margin-bottom: 10px;} 
+
+

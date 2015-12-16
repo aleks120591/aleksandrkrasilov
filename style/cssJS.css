@@ -1,0 +1,13 @@
+.fild {
+	clear:both; 
+	text-align:right;
+}
+label {
+	float:left;
+}
+.main {
+	float:left
+}
+input:focus {
+  border-color: red;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e7775958-8179-4bdb-af5f-239991f7cd65" name="xyz" url="http://ftp.aleksandrkrasilov.xyz">
+        <fileTransfer host="ftp.aleksandrkrasilov.xyz" port="21" password="df9adfdadf92dfc3df9cdfd3df9edfd8df98dfdd" username="u535205300.aleks120591">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

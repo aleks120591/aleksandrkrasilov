@@ -1,0 +1,108 @@
+<html> 
+<head> 
+<meta charset="utf-8">
+<title>Вычисление площади выбранной с помощью переключателя фигуры</title> 
+<style type="text/css">
+	@import url("../style/header.css");
+	@import url("../style/menu.css");
+	@import url("../style/rest.css");
+	@import url("../style/kod.css");
+	@import url("../style/cssJS.css");
+	@import url("../style/spisok.css");
+</style>
+<script type="text/javascript" src="../js/lab_5_p_2.js"></script>
+</head> 
+<body> 
+<!-- шапка -->  
+<div id="header">
+	<div id="fixedBox">
+	  <h1 id="h1"><font>WEB - программирование</font></h1>
+		<h3 id="h1">Автор: Красилов Александр Александрович</h3>
+	</div>
+</div>   
+<!-- Меню -->  
+<div id="left">
+	<ul class="secondary-menu">		
+		<li><a href="../index.html">Главная</a></li>		
+		<li><a href=" ">HTML</a></li>
+
+		<li><a href=" ">JavaScript</a>
+			<ul class="sub-menu">			
+				<li><a href="../lab_JS/lab_1.html">Lab 1</a></li>			
+				<li><a href="../lab_JS/lab_2.html">Lab 2</a></li>
+				<li><a href="../lab_JS/lab_3.html">Lab 3</a></li>
+				<li><a href="../lab_JS/lab_4.html">Lab 4</a></li>
+				<li><a href="../lab_JS/lab_5.html">Lab 5</a></li>
+			</ul>			
+		</li>	
+	
+		<li><a href=" ">PHP</a>		
+			<ul class="sub-menu">			
+				<li><a href=" ">Урок 1.1</a>				
+			<ul class="sub-menu">					
+		<li><a href="../PhpHtml/index.php">PHP и HTML</a></li>					
+		<li><a href=" ">Раздел 1.1.2</a></li>				
+	</ul>			
+</li>			
+<li><a href=" ">Раздел 1.2</a></li>			
+<li><a href=" ">Раздел 1.3</a></li>		
+</ul>			
+</li>		
+<li><a href=" ">MySQL</a></li>	
+<li><a href=" ">Справочник</a>		
+<ul class="sub-menu">			
+<li><a href=" ">HTML</a>				
+<ul class="sub-menu">					
+<li><a href="../info/index.php">Основные тэги</a></li>					
+<li><a href=" ">Раздел 1.1.2</a></li>				
+</ul>			
+</li>			<li><a href=" ">PHP</a>				
+<ul class="sub-menu">					
+<li><a href="../info/index.php">Основные тэги</a></li>					
+<li><a href=" ">Раздел 1.1.2</a></li>				
+</ul>			
+</li>			
+<li><a href=" ">MySQL</a>				
+<ul class="sub-menu">					
+<li><a href="../info/index.php">Основные тэги</a></li>					
+<li><a href=" ">Раздел 1.1.2</a></li>				
+</ul>			
+</li>		
+</ul>			
+</li>
+
+<li><a href=" ">The game of life</a>		
+	<ul class="sub-menu">			
+		<li><a href="../the_game_of_life/index.html">Start</a></li>		
+	</ul>			
+</li>
+		
+</ul>
+</div>
+   
+<!-- правый вертикальный -->  
+<div id="right">
+
+</div>  
+<!-- центральный блок (для динамического контента)-->  
+<div id="middle">
+
+	<form name="form1">
+		Выберите форму витража<hr>
+		<input type="radio" name="fw" value=1 id="i1">пpямoyгoльник<br> 
+		<input type="radio" name="fw" value=2 id="i2">квадрат<br> 
+		<input type="radio" name="fw" value=3 id="i3">треугольник<br> 
+		<input type="radio" name="fw" value=4 id="i4">кpyr<br> 
+		<hr>
+		<input type="button" value="Выполнить" onClick="vid()"> 
+		<input type="reset" value="Отменить"><hr> 
+		<input type="text" name="res" id="resch"> 
+	</form>
+</div>  
+      
+<!-- футер -->  
+<div id="footer">
+
+</div>  
+</body>
+</html>

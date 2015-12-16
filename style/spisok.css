@@ -1,0 +1,9 @@
+#li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+#ul {
+   list-style-type: none; /* Убираем маркеры */
+}
+#ol {
+    list-style-type: none; /* Убираем маркеры */
+}

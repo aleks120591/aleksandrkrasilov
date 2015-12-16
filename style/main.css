@@ -1,0 +1,28 @@
+#h1_1{
+  background: #F6F2E4; 
+  margin:0 0 15px 0;
+  padding:15px;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+/* Матрица Жизни */
+#mLife{
+  border: 1px solid gray;
+  border-collapse:collapse; 
+  cursor:pointer;
+  margin-bottom:10px;
+}
+
+/* Клетка матрицы */
+#mLife td{
+  font-size: 1px;
+  width:12px; height:12px;
+  border: 1px solid gray;
+  background-color:white;
+}
+
+code{
+  font-family: "Trebuchet MS", sans-serif;
+  font-size:102%;
+}

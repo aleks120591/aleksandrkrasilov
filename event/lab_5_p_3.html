@@ -1,0 +1,118 @@
+<html> 
+<head> 
+<meta charset="utf-8">
+<title>Вычисление площади выбранной с помощью переключателя фигуры</title> 
+<style type="text/css">
+	@import url("../style/header.css");
+	@import url("../style/menu.css");
+	@import url("../style/rest.css");
+	@import url("../style/kod.css");
+	@import url("../style/cssJS.css");
+	@import url("../style/spisok.css");
+</style>
+<script type="text/javascript" src="../js/lab_5_p_3.js"></script>
+</head> 
+<body> 
+<!-- шапка -->  
+<div id="header">
+	<div id="fixedBox">
+	  <h1 id="h1"><font>WEB - программирование</font></h1>
+		<h3 id="h1">Автор: Красилов Александр Александрович</h3>
+	</div>
+</div>   
+<!-- Меню -->  
+<div id="left">
+	<ul class="secondary-menu">		
+		<li><a href="../index.html">Главная</a></li>		
+		<li><a href=" ">HTML</a></li>
+
+		<li><a href=" ">JavaScript</a>
+			<ul class="sub-menu">			
+				<li><a href="../lab_JS/lab_1.html">Lab 1</a></li>			
+				<li><a href="../lab_JS/lab_2.html">Lab 2</a></li>
+				<li><a href="../lab_JS/lab_3.html">Lab 3</a></li>
+				<li><a href="../lab_JS/lab_4.html">Lab 4</a></li>
+				<li><a href="../lab_JS/lab_5.html">Lab 5</a></li>
+			</ul>			
+		</li>	
+	
+		<li><a href=" ">PHP</a>		
+			<ul class="sub-menu">			
+				<li><a href=" ">Урок 1.1</a>				
+			<ul class="sub-menu">					
+		<li><a href="../PhpHtml/index.php">PHP и HTML</a></li>					
+		<li><a href=" ">Раздел 1.1.2</a></li>				
+	</ul>			
+</li>			
+<li><a href=" ">Раздел 1.2</a></li>			
+<li><a href=" ">Раздел 1.3</a></li>		
+</ul>			
+</li>		
+<li><a href=" ">MySQL</a></li>	
+<li><a href=" ">Справочник</a>		
+<ul class="sub-menu">			
+<li><a href=" ">HTML</a>				
+<ul class="sub-menu">					
+<li><a href="../info/index.php">Основные тэги</a></li>					
+<li><a href=" ">Раздел 1.1.2</a></li>				
+</ul>			
+</li>			<li><a href=" ">PHP</a>				
+<ul class="sub-menu">					
+<li><a href="../info/index.php">Основные тэги</a></li>					
+<li><a href=" ">Раздел 1.1.2</a></li>				
+</ul>			
+</li>			
+<li><a href=" ">MySQL</a>				
+<ul class="sub-menu">					
+<li><a href="../info/index.php">Основные тэги</a></li>					
+<li><a href=" ">Раздел 1.1.2</a></li>				
+</ul>			
+</li>		
+</ul>			
+</li>
+
+<li><a href=" ">The game of life</a>		
+	<ul class="sub-menu">			
+		<li><a href="../the_game_of_life/index.html">Start</a></li>		
+	</ul>			
+</li>
+		
+</ul>
+</div>
+   
+<!-- правый вертикальный -->  
+<div id="right">
+
+</div>  
+<!-- центральный блок (для динамического контента)-->  
+<div id="middle">
+<center>
+<h4>Изображение и текст.
+Обтекание изображения текстом</h4>
+</center>
+<form name="form1">
+	Выберите значение параметра выравнивания  нажмите кнопку  <b>Просмотр</b>.<br>
+	<pre>
+	<input type="radio" name="alg" checked value=ld>(left) изображение выравнивается по левому краю
+	<input type="radio" name="alg" value=rd>(right) изображение выравнивается по правому краю
+	</pre>
+	<input type="button" value= "Просмотр" onclick="chpict(form1)">
+	<input type="reset" value="Отменить" onclick="rset(form1)">
+</form>
+<table bgcolor="F8F8FF">
+<tr><td>Иван Иванович Шишкин является одним из основоположников русского национального пейзажа.
+<img src="../img/komp17.jpg" name=mypict align=left border=3 width=310>
+В полотне "Рожь" Шишкин создал образ большой эпической силы
+и подлинно монументального звучания. Могучая, полная
+богатырских сил природа, богатый, привольный край. (Т. Юрова)
+</td></tr>
+</table>
+
+</div>  
+      
+<!-- футер -->  
+<div id="footer">
+
+</div>  
+</body>
+</html>

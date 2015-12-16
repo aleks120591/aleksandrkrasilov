@@ -1,0 +1,42 @@
+ul.secondary-menu {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 200px;
+}
+ul.secondary-menu li {
+	background: #333333;
+	background: linear-gradient(#222222, #444444);
+	list-style: none;
+	position: relative;
+}
+ul.secondary-menu li a {
+	padding: 10px;
+	display: block;
+	border-top: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul.secondary-menu li a:hover,
+ul.secondary-menu li:hover > a {
+	background: #006699;
+}
+ul.secondary-menu li ul,
+ul.secondary-menu li ul.sub-menu li ul {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+ul.secondary-menu li:hover ul,
+ul.secondary-menu li ul.sub-menu li:hover ul {
+	left: 200px;
+	top: 0px;
+	width: 200px;
+	display: block;
+	position: absolute;
+	z-index: 100;
+}
